@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+#container{
+	margin:20px;
+	display:inline-block;
+	position: relative;
+}
+#container::before{
+	color:#f00;
+	content:"Before Element";
+	font-size:20px;
+	
+}
+#container::after{
+	color:#f00;
+	content:"After Element";
+	font-size:20px;
+	
+}

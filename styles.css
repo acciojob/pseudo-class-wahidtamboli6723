@@ -3,6 +3,7 @@
 	margin:20px;
 	display:inline-block;
 	position: relative;
+	content:"This is the main container element";
 }
 #container::before{
 	color:#f00;
